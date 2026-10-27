@@ -1,13 +1,13 @@
-# pasarkita#!/bin/bash
+# guruku#!/bin/bash
 set -e
 
 # ============================================================
-# PASARKITA — FULL FILE BUNDLE
+#  GURUKU — FULL FILE BUNDLE
 # Creates the entire project structure in one shot
 # ============================================================
 
-REPO_NAME="pasarkita"
-GITHUB_USER="YOUR_USERNAME"   # <-- CHANGE THIS
+REPO_NAME="guruku"
+GITHUB_USER="khaliffhaned-dot"   # <-- CHANGE THIS
 
 mkdir -p "$REPO_NAME" && cd "$REPO_NAME"
 git init -b main
@@ -17,7 +17,7 @@ git init -b main
 # ============================================================
 
 cat > README.md << 'EOF'
-# PasarKita 🇲🇾
+# Guruku 🇲🇾
 
 **Syok Sendiri, Syok Semua!**
 
